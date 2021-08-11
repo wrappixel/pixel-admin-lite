@@ -5,9 +5,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-'use strict';
+"use strict";
 
-var Markdown = require('markdown-it');
+var Markdown = require("markdown-it");
 
 function markdown2html(markdownString) {
   var md = new Markdown();
@@ -15,7 +15,6 @@ function markdown2html(markdownString) {
   // the slice removes the <p>...</p> wrapper output by Markdown processor
   return md.render(markdownString.trim()).slice(3, -5);
 }
-
 
 /*
 Mini-language:
@@ -32,7 +31,6 @@ Mini-language:
   All other lines are ignored completely.
 */
 
-
 var CUSTOMIZABLE_HEADING = /^[/]{2}={2}(.*)$/;
 var UNCUSTOMIZABLE_HEADING = /^[/]{2}-{2}(.*)$/;
 var SUBSECTION_HEADING = /^[/]{2}={3}(.*)$/;
@@ -42,7 +40,7 @@ var VAR_DOCSTRING = /^[/]{2}[*]{2}(.+)$/;
 
 function Section(heading, customizable) {
   this.heading = heading.trim();
-  this.id = this.heading.replace(/\s+/g, '-').toLowerCase();
+  this.id = this.heading.replace(/\s+/g, "-").toLowerCase();
   this.customizable = customizable;
   this.docstring = null;
   this.subsections = [];
@@ -54,7 +52,7 @@ Section.prototype.addSubSection = function (subsection) {
 
 function SubSection(heading) {
   this.heading = heading.trim();
-  this.id = this.heading.replace(/\s+/g, '-').toLowerCase();
+  this.id = this.heading.replace(/\s+/g, "-").toLowerCase();
   this.variables = [];
 }
 
@@ -77,13 +75,13 @@ function Variable(name, defaultValue) {
 }
 
 function Tokenizer(fileContent) {
-  this._lines = fileContent.split('\n');
+  this._lines = fileContent.split("\n");
   this._next = undefined;
 }
 
 Tokenizer.prototype.unshift = function (token) {
   if (this._next !== undefined) {
-    throw new Error('Attempted to unshift twice!');
+    throw new Error("Attempted to unshift twice!");
   }
   this._next = token;
 };
@@ -121,7 +119,7 @@ Tokenizer.prototype._shift = function () {
   if (match !== null) {
     return new VarDocstring(match[1]);
   }
-  var commentStart = line.lastIndexOf('//');
+  var commentStart = line.lastIndexOf("//");
   var varLine = commentStart === -1 ? line : line.slice(0, commentStart);
   match = VAR_ASSIGNMENT.exec(varLine);
   if (match !== null) {
@@ -150,7 +148,7 @@ Parser.prototype.parseFile = function () {
     var section = this.parseSection();
     if (section === null) {
       if (this._tokenizer.shift() !== null) {
-        throw new Error('Unexpected unparsed section of file remains!');
+        throw new Error("Unexpected unparsed section of file remains!");
       }
       return sections;
     }
@@ -164,7 +162,9 @@ Parser.prototype.parseSection = function () {
     return null;
   }
   if (!(section instanceof Section)) {
-    throw new Error('Expected section heading; got: ' + JSON.stringify(section));
+    throw new Error(
+      "Expected section heading; got: " + JSON.stringify(section)
+    );
   }
   var docstring = this._tokenizer.shift();
   if (docstring instanceof SectionDocstring) {
@@ -183,7 +183,7 @@ Parser.prototype.parseSubSections = function (section) {
     if (subsection === null) {
       if (section.subsections.length === 0) {
         // Presume an implicit initial subsection
-        subsection = new SubSection('');
+        subsection = new SubSection("");
         this.parseVars(subsection);
       } else {
         break;
@@ -192,7 +192,11 @@ Parser.prototype.parseSubSections = function (section) {
     section.addSubSection(subsection);
   }
 
-  if (section.subsections.length === 1 && !section.subsections[0].heading && section.subsections[0].variables.length === 0) {
+  if (
+    section.subsections.length === 1 &&
+    !section.subsections[0].heading &&
+    section.subsections[0].variables.length === 0
+  ) {
     // Ignore lone empty implicit subsection
     section.subsections = [];
   }
@@ -232,6 +236,5 @@ Parser.prototype.parseVar = function () {
   this._tokenizer.unshift(variable);
   return null;
 };
-
 
 module.exports = Parser;

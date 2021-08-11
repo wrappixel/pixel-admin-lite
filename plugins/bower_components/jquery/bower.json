@@ -20,9 +20,5 @@
     "qunit": "1.14.0",
     "sinon": "1.8.1"
   },
-  "keywords": [
-    "jquery",
-    "javascript",
-    "library"
-  ]
+  "keywords": ["jquery", "javascript", "library"]
 }
