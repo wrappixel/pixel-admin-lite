@@ -1,7 +1,7 @@
 <!-- # pixel-admin-lite -->
 <!-- Heading of Template -->
 <h1>
-  <a href="https://www.wrappixel.com/demos/free-admin-templates/pixel-admin-lite/pixel-html/index.html">Pixel Bootstrap Admin Lite</a>
+  <a href="https://www.wrappixel.com/templates/pixel-admin-lite/">Pixel Bootstrap Admin Lite</a>
 </h1>
 
 <!-- Main image of Template -->
@@ -23,7 +23,7 @@
 <h2>Resources</h2>
 <ul>
 <li>  
-  Live Demo: <a href="https://www.wrappixel.com/demos/free-admin-templates/pixel-admin-lite/pixel-html/index.html" rel="nofollow">https://www.wrappixel.com/demos/free-admin-templates/pixel-admin-lite/pixel-html/index.html</a>
+  Live Demo: <a href="https://demos.wrappixel.com/free-admin-templates/bootstrap/pixel-bootstrap-free/landingpage/index.html" rel="nofollow">https://demos.wrappixel.com/free-admin-templates/bootstrap/pixel-bootstrap-free/landingpage/index.html</a>
 </li>
 <li>
     Download Page: <a href="https://www.wrappixel.com/templates/pixel-admin-lite/" rel="nofollow">
@@ -38,7 +38,7 @@
 <h2>Licensing</h2>
 <ul>
   <li>
-    <p>Copyright 2020 Wrappixel (<a href="https://www.wrappixel.com/" rel="nofollow">https://www.wrappixel.com/</a>)</p>
+    <p>Copyright 2021 Wrappixel (<a href="https://www.wrappixel.com/" rel="nofollow">https://www.wrappixel.com/</a>)</p>
   </li>
   <li>
     <p>Licensed under MIT (<a href="https://www.wrappixel.com/license/">https://www.wrappixel.com/license/</a>)</p>
@@ -53,7 +53,7 @@
 </a>
 <p>
    Checkout our premium version of Pixel Bootstrap Admin for lots more features and ready to use page templates.<br>
-   <a href="https://www.wrappixel.com/demos/admin-templates/pixeladmin/inverse/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/pixeladmin/">Download</a>
+   <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/pixel-bootstrap/packages/inverse/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/pixeladmin/">Download</a>
 </p>
 
 <!-- Useful Links of Template -->
