@@ -1,13 +1,8 @@
 <!-- # pixel-admin-lite -->
 <!-- Heading of Template -->
 <h1>
-  <a href="https://www.wrappixel.com/templates/pixel-admin-lite/">Pixel Bootstrap Admin Lite</a>
+  <a href="https://wrappixel.com/templates/pixel-admin-lite"><b>Pixel Bootstrap Admin Lite</b></a>
 </h1>
-
-<!-- Main image of Template -->
-<a target="_blank" href="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/pixel-admin-lite-y.jpg">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/pixel-admin-lite-y.jpg" />
-</a>
 
 <!-- Description of Template -->
 <p>
@@ -16,21 +11,21 @@
 
 <!-- <h4><a href="https://wrappixel.com/demos/free-admin-templates/pixel-admin-lite/pixel-html/index.html">Free Version Demo Link</a></h4>
 ## Pro Version
-<a href="https://www.wrappixel.com/templates/pixeladmin/"><img src="https://www.wrappixel.com/wp-content/uploads/2019/01/pixel-admin-bootstrap-nw-1.jpg"/></a><br/>
-<h4><a href="https://www.wrappixel.com/demos/admin-templates/pixeladmin/inverse/index.html">Demo</a></h4> -->
+<a href="https://wrappixel.com/templates/pixeladmin"><img src="https://www.wrappixel.com/wp-content/uploads/2019/01/pixel-admin-bootstrap-nw-1.jpg"/></a><br/>
+<h4><a href="https://wrappixel.com/demos/admin-templates/pixeladmin/inverse/index.html">Demo</a></h4> -->
 
 <!-- Resources of Template -->
 <h2>Resources</h2>
 <ul>
 <li>  
-  Live Demo: <a href="https://demos.wrappixel.com/free-admin-templates/bootstrap/pixel-bootstrap-free/landingpage/index.html" rel="nofollow">https://demos.wrappixel.com/free-admin-templates/bootstrap/pixel-bootstrap-free/landingpage/index.html</a>
+  Live Demo:<a href="https://bootstrapdemos.wrappixel.com/materialpro-bt-free/html/index.html" rel="nofollow"></a>https://bootstrapdemos.wrappixel.com/materialpro-bt-free/html/index.html </a>
 </li>
 <li>
-    Download Page: <a href="https://www.wrappixel.com/templates/pixel-admin-lite/" rel="nofollow">
-  https://www.wrappixel.com/templates/pixel-admin-lite/</a>
+    Download Page: <a href="https://wrappixel.com/templates/pixel-admin-lite" rel="nofollow">
+  <b>https://wrappixel.com/templates/pixel-admin-lite</b></a>
 </li>
 <li>
-    <a href="https://www.wrappixel.com/templates/wrapkit/#demos" rel="nofollow">WrapKit </a>Complete UI Kit - For Website Projects
+    <a href="https://wrappixel.com/templates/wrapkit#demos" rel="nofollow"><b>WrapKit</b> </a>Complete UI Kit - For Website Projects
 </li>
 </ul>
 
@@ -38,34 +33,31 @@
 <h2>Licensing</h2>
 <ul>
   <li>
-    <p>Copyright 2021 Wrappixel (<a href="https://www.wrappixel.com/" rel="nofollow">https://www.wrappixel.com/</a>)</p>
+    <p>Copyright 2021 Wrappixel (<a href="https://wrappixel.com" rel="nofollow"><b>https://wrappixel.com</b></a>)</p>
   </li>
   <li>
-    <p>Licensed under MIT (<a href="https://www.wrappixel.com/license/">https://www.wrappixel.com/license/</a>)</p>
+    <p>Licensed under MIT (<a href="https://wrappixel.com/license"><b>https://wrappixel.com/license</b></a>)</p>
   </li>
 </ul>
 
 
 <!-- Upgrade to Premium version of Template -->
 <h2>Upgrade to Premium version</h2>
-<a target="_blank" href="https://www.wrappixel.com/templates/pixeladmin/">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/pixel-bootstrap-admin-y.jpg" />
-</a>
 <p>
    Checkout our premium version of Pixel Bootstrap Admin for lots more features and ready to use page templates.<br>
-   <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/pixel-bootstrap/packages/inverse/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/pixeladmin/">Download</a>
+   <a href="https://bootstrapdemos.wrappixel.com/materialpro/dist/main/index.html"><b>Check Live Preview</b></a> | <a href="https://wrappixel.com/templates/pixeladmin"><b>Download</b></a>
 </p>
 
 <!-- Useful Links of Template -->
 <h2>Useful Links</h2>
 <ul>
-<li><a href="https://www.wrappixel.com/templates/category/admin-template/">Free Admin Templates</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/">Bootstrap Templates</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/bootstrap-admin-templates/">Bootstrap 4 Dashboard</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/angular-templates/">Angular Material Template</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/react-templates/">React Templates</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/vuejs-templates/">Vue Templates</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/free-templates/">Free Website Templates</a> from WrapPixel</li>
+<li><a href="https://wrappixel.com/admin-dashboard-templates"><b>Free Admin Templates</b></a> from WrapPixel</li>
+<li><a href="https://wrappixel.com"><b>Bootstrap Templates</b></a> from WrapPixel</li>
+<li><a href="https://wrappixel.com/bootstrap-templates"><b>Bootstrap 4 Dashboard</b></a> from WrapPixel</li>
+<li><a href="https://wrappixel.com/angular-templates"><b>Angular Material Template</b></a> from WrapPixel</li>
+<li><a href="https://wrappixel.com/react-templates"><b>React Templates</b></a> from WrapPixel</li>
+<li><a href="https://wrappixel.com/vue-templates"><b>Vue Templates</b></a> from WrapPixel</li>
+<li><a href="https://wrappixel.com/free-templates"><b>Free Website Templates</b></a> from WrapPixel</li>
 </ul>
 
 <!-- Social Media of Wrappixel -->
